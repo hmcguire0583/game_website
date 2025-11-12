@@ -13,18 +13,38 @@
   font-family: 'Basi Map';
   src: url('/fonts/basimap.woff2') format('woff2'),
        url('/fonts/basimap.woff') format('woff');
-  /* Team layout is implemented with Tailwind utility classes in the component. */
-  .team-section {
-    max-width: 980px;
-    margin: 24px auto;
-    padding: 18px 12px;
-  }
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
 
-  .section-title {
-    color: #e9fff0;
-    font-size: 2rem;
-    margin: 0 0 10px 0;
-  }
+/* Header / Navbar styles (restored) */
+.site-header {
+  background: #0f1112;
+  border-bottom: 1px solid #222;
+}
+
+.site-header-inner {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.site-logo-heading {
+  color: #00ff7f;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 0.8px;
+  transition: transform 180ms ease, text-shadow 180ms ease;
 }
 
 /* SurviveX glow on hover */

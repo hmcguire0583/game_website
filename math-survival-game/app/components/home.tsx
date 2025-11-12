@@ -1,8 +1,11 @@
 "use client";
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import DownloadSection from './DownloadSection';
 
 export default function GamePage() {
+  const router = useRouter();
   return (
     <main style={{ backgroundColor: '#0d0d0d', color: '#f5f5f5' }}>
       <header style={{
@@ -29,8 +32,15 @@ export default function GamePage() {
           Build shelter, hunt for food, and survive the wilderness.
         </p>
 
-        {/* Play button with pulsing glow + hover/focus effects */}
-        <button className="play-btn" aria-label="Play the game">Play Now</button>
+  {/* Play button with pulsing glow + hover/focus effects. Use router.push to ensure navigation triggers. */}
+  <button
+    type="button"
+    className="play-btn"
+    aria-label="Go to downloads"
+    onClick={() => router.push('/download')}
+  >
+    Play Now
+  </button>
 
         <style>{`
           .play-btn {
@@ -83,6 +93,10 @@ export default function GamePage() {
       </div>
 
       {/* In-page sections (home anchors) */}
+
+      {/* Download / Install section that Play Now links to */}
+      {/* Imported DownloadSection component for reuse */}
+      <DownloadSection />
     </main>
   );
 }

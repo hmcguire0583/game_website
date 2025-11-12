@@ -7,10 +7,16 @@ import React from 'react';
 export default function Navbar() {
   const pathname = usePathname() || '/';
 
+  // Hide the persistent navbar on the dedicated download page
+  if (pathname === '/download' || pathname.startsWith('/download/')) {
+    return null;
+  }
+
   const items = [
     { href: '/background', label: 'Background' },
     { href: '/team', label: 'Team' },
-    { href: '/bibliography', label: 'Bibliography' },
+    { href: '/resources', label: 'Resources' },
+    { href: '/bibliography', label: 'Bibliography' }
   ];
 
   return (

@@ -1,0 +1,16 @@
+import React from 'react';
+
+export default function ResourcesSection() {
+  return (
+    <section id="resources" aria-labelledby="resources-title" style={{ maxWidth: 980, margin: '40px auto', padding: 28, borderRadius: 12, background: 'linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01))', border: '1px solid rgba(255,255,255,0.03)' }}>
+      <h2 id="resources-title" style={{ marginTop: 0, color: '#e9fff0', fontSize: '2rem' }}>Resources</h2>
+      <p style={{ color: '#cfe9dd', lineHeight: 1.6 }}>
+
+      </p>
+
+      <p style={{ color: '#bcd9cf', marginTop: 12 }}>
+      
+      </p>
+  </section>
+  );
+}

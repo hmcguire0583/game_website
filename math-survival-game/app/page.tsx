@@ -1,6 +1,9 @@
 "use client";
 
+import { useRouter } from 'next/navigation';
+
 export default function GamePage() {
+  const router = useRouter();
   return (
     <main style={{ backgroundColor: '#0d0d0d', color: '#f5f5f5' }}>
       
@@ -17,8 +20,8 @@ export default function GamePage() {
           Build shelter, hunt for food, and survive the wilderness.
         </p>
 
-        {/* Play button with pulsing glow + hover/focus effects */}
-        <button className="play-btn" aria-label="Play the game">Play Now</button>
+  {/* Play button with pulsing glow + hover/focus effects */}
+  <button className="play-btn" aria-label="Play the game" type="button" onClick={() => router.push('/download')}>Play Now</button>
 
         <style>{`
           .play-btn {
