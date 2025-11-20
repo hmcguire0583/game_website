@@ -1,15 +1,16 @@
-[gd_scene load_steps=21 format=3 uid="uid://d13u6hp7j5hv5"]
+[gd_scene load_steps=22 format=3 uid="uid://d13u6hp7j5hv5"]
 
+[ext_resource type="Script" uid="uid://mohg18jqcsjk" path="res://scenes/timer.gd" id="1_hvnw1"]
 [ext_resource type="Texture2D" uid="uid://c7u0b7grl7vq0" path="res://art/tilesets/Water.png" id="1_oojol"]
 [ext_resource type="Texture2D" uid="uid://c1cr1b6nt5bbe" path="res://art/tilesets/grass.png" id="2_xq77f"]
 [ext_resource type="Texture2D" uid="uid://d4f4iesohr63o" path="res://art/tilesets/plains.png" id="3_0yomu"]
 [ext_resource type="PackedScene" uid="uid://rqphw5hige8p" path="res://scenes/player.tscn" id="4_1te1p"]
 [ext_resource type="Texture2D" uid="uid://dwu27ikebhltn" path="res://art/objects/objects.png" id="4_r0a0i"]
-[ext_resource type="PackedScene" uid="uid://bqp0tfyerh5bv" path="res://enemy.tscn" id="5_jlm5j"]
+[ext_resource type="PackedScene" path="res://enemy.tscn" id="5_jlm5j"]
 [ext_resource type="Script" uid="uid://3s28k2g4gyht" path="res://scenes/boat.gd" id="6_7d436"]
 [ext_resource type="Texture2D" uid="uid://c6b1ox31cafbc" path="res://art/objects/chest_01.png" id="6_q5uyg"]
-[ext_resource type="PackedScene" uid="uid://dhhctwvnbpoc4" path="res://shark.tscn" id="6_r0a0i"]
-[ext_resource type="Script" path="res://scripts/panel.gd" id="8_jlm5j"]
+[ext_resource type="PackedScene" path="res://shark.tscn" id="6_r0a0i"]
+[ext_resource type="Script" uid="uid://cotm5adwafwp0" path="res://scripts/panel.gd" id="8_jlm5j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7d436"]
 texture = ExtResource("1_oojol")
@@ -268,7 +269,7 @@ texture = ExtResource("3_0yomu")
 texture = ExtResource("4_r0a0i")
 0:0/0 = 0
 0:0/0/physics_layer_0/angular_velocity = 0.085
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -0.31863022, 4.938774, 5.4167213, -3.0269928, 5.4167213, -8, -0.95589256)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -0.31863, 4.93877, 5.41672, -3.02699, 5.41672, -8, -0.955893)
 1:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
@@ -276,7 +277,7 @@ texture = ExtResource("4_r0a0i")
 5:0/0 = 0
 5:0/0/y_sort_origin = 3
 5:0/0/physics_layer_0/angular_velocity = 0.085
-5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(4.620144, -1.2745228, 8, 6.0539856, -8, 5.4167213, -8, -0.95589256)
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(4.62014, -1.27452, 8, 6.05399, -8, 5.41672, -8, -0.955893)
 6:0/0 = 0
 7:0/0 = 0
 8:0/0 = 0
@@ -289,7 +290,7 @@ texture = ExtResource("4_r0a0i")
 15:0/0 = 0
 0:1/0 = 0
 0:1/0/physics_layer_0/angular_velocity = 0.085
-0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -2.8676758, 11.31139, 4.1422005, 8, 8, -8, 8, -10.992762, 2.8676758, -8, -3.186308)
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -2.86768, 11.3114, 4.1422, 8, 8, -8, 8, -10.9928, 2.86768, -8, -3.18631)
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -470,7 +471,7 @@ texture = ExtResource("4_r0a0i")
 6:7/size_in_atlas = Vector2i(2, 2)
 6:7/0 = 0
 6:7/0/physics_layer_0/angular_velocity = 0.085
-6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(13.063862, 8.284401, 9.558926, 14.0197525, -1.9117832, 14.0197525, -9.558922, 13.701122, -14.338383, 7.0098763)
+6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(13.0639, 8.2844, 9.55893, 14.0198, -1.91178, 14.0198, -9.55892, 13.7011, -14.3384, 7.00988)
 8:6/size_in_atlas = Vector2i(2, 3)
 8:6/0 = 0
 8:6/0/y_sort_origin = 3
@@ -479,7 +480,7 @@ texture = ExtResource("4_r0a0i")
 10:7/0 = 0
 10:7/0/y_sort_origin = 3
 10:7/0/physics_layer_0/angular_velocity = 0.085
-10:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -2.8676758, 11.31139, 4.1422005, 8, 8, -8, 8, -10.992762, 2.8676758, -8, -3.186308)
+10:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -2.86768, 11.3114, 4.1422, 8, 8, -8, 8, -10.9928, 2.86768, -8, -3.18631)
 
 [sub_resource type="TileSet" id="TileSet_1n3ba"]
 physics_layer_0/collision_layer = 3
@@ -517,6 +518,7 @@ animations = [{
 }]
 
 [node name="world" type="Node2D"]
+script = ExtResource("1_hvnw1")
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(-1, 1)
@@ -581,7 +583,7 @@ text = "2 + 3 = ?"
 [node name="shark" parent="." instance=ExtResource("6_r0a0i")]
 position = Vector2(353, -11)
 
-[node name="enemy" parent="." instance=ExtResource("5_jlm5j")]
+[node name="enemy" parent="." groups=["enemy"] instance=ExtResource("5_jlm5j")]
 position = Vector2(152, 84)
 
 [node name="shark2" parent="." instance=ExtResource("6_r0a0i")]
@@ -590,8 +592,23 @@ position = Vector2(299, 208)
 [node name="shark3" parent="." instance=ExtResource("6_r0a0i")]
 position = Vector2(-188, 134)
 
-[node name="Player" parent="." instance=ExtResource("4_1te1p")]
+[node name="Player" parent="." groups=["player"] instance=ExtResource("4_1te1p")]
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+
+[node name="LevelTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="TimerLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AnswerInput" type="LineEdit" parent="."]
+offset_right = 68.5625
+offset_bottom = 31.0
+
+[node name="QuestionLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0

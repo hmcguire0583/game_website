@@ -1,21 +1,21 @@
-[gd_scene load_steps=7 format=3 uid="uid://ca22crgx6e3u"]
+[gd_scene load_steps=7 format=3 uid="uid://y76nt65d0ljc"]
 
 [ext_resource type="Texture2D" uid="uid://b4av2nqc5rlu0" path="res://art/background.png" id="1_7vrkn"]
-[ext_resource type="Script" uid="uid://b47tjqg5upahq" path="res://main_menu.gd" id="1_fu7sn"]
+[ext_resource type="Script" path="res://main_menu.gd" id="1_fu7sn"]
 [ext_resource type="FontFile" uid="uid://bu01bhgq2kh8i" path="res://Super Crawler.ttf" id="2_fu7sn"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jix8l"]
 texture = ExtResource("1_7vrkn")
-modulate_color = Color(0.65034926, 0.65034926, 0.65034926, 1)
+modulate_color = Color(0.650349, 0.650349, 0.650349, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7vrkn"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rhts7"]
-bg_color = Color(0.05490196, 0.54901963, 0.5647059, 1)
+bg_color = Color(0.054902, 0.54902, 0.564706, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7vrkn"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -63,15 +63,15 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 16
-theme_override_styles/normal = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_7vrkn")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/normal = SubResource("StyleBoxFlat_rhts7")
 text = "Start Game"
 
 [node name="Button2" type="Button" parent="VBoxContainer"]
@@ -79,15 +79,15 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 16
-theme_override_styles/normal = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_7vrkn")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/normal = SubResource("StyleBoxFlat_rhts7")
 text = "Options (placeholder)"
 
 [node name="Button3" type="Button" parent="VBoxContainer"]
@@ -95,15 +95,15 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 16
-theme_override_styles/normal = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_rhts7")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_7vrkn")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_rhts7")
+theme_override_styles/normal = SubResource("StyleBoxFlat_rhts7")
 text = "Exit
 "
 
@@ -120,7 +120,7 @@ offset_right = 89.0
 offset_bottom = 38.5
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(0.78431374, 1, 1, 1)
+theme_override_colors/font_color = Color(0.784314, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 5
