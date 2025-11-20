@@ -5,6 +5,7 @@ extends Node2D
 @onready var timer_label := $TimerLabel
 @onready var question_label := $QuestionLabel
 @onready var answer_input := $AnswerInput
+@onready var objective_label := $CanvasLayer2/ObjectiveLabel
 
 var current_enemy = null
 var correct_answer = 0
@@ -15,6 +16,7 @@ func _ready():
 		level_timer.one_shot = true
 		level_timer.start()
 		level_timer.timeout.connect(_on_time_out)
+		objective_label.text = "Objective: Defeat all enemies"
 	else:
 		push_error("LevelTimer node not found!")
 
