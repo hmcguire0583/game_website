@@ -519,6 +519,7 @@ animations = [{
 
 [node name="world" type="Node2D"]
 script = ExtResource("1_hvnw1")
+time_limit = null
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(-1, 1)
@@ -603,6 +604,14 @@ one_shot = true
 ignore_time_scale = true
 
 [node name="TimerLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AnswerInput" type="LineEdit" parent="."]
+offset_right = 68.5625
+offset_bottom = 31.0
+
+[node name="QuestionLabel" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
 

@@ -606,6 +606,14 @@ ignore_time_scale = true
 offset_right = 40.0
 offset_bottom = 23.0
 
+[node name="AnswerInput" type="LineEdit" parent="."]
+offset_right = 68.5625
+offset_bottom = 31.0
+
+[node name="QuestionLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
 [node name="CanvasLayer2" type="CanvasLayer" parent="."]
 
 [node name="ObjectiveLabel" type="Label" parent="CanvasLayer2"]
